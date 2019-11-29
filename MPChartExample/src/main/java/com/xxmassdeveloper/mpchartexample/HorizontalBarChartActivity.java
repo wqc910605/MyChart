@@ -101,6 +101,7 @@ public class HorizontalBarChartActivity extends DemoBase implements OnSeekBarCha
         chart.setTouchEnabled(false);
 //        initChartData1();
         initChartData2();
+        System.out.println();
     }
 
     private void initChartData2() {
