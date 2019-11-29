@@ -62,6 +62,12 @@ public class HorizontalBarChartActivity extends DemoBase implements OnSeekBarCha
         seekBarX = findViewById(R.id.seekBar1);
         seekBarY = findViewById(R.id.seekBar2);
 
+        seekBarX = findViewById(R.id.seekBar1);
+        seekBarY = findViewById(R.id.seekBar2);
+
+        seekBarX = findViewById(R.id.seekBar1);
+        seekBarY = findViewById(R.id.seekBar2);
+
         seekBarY.setOnSeekBarChangeListener(this);
         seekBarX.setOnSeekBarChangeListener(this);
 
@@ -73,6 +79,9 @@ public class HorizontalBarChartActivity extends DemoBase implements OnSeekBarCha
 
         chart.setDrawValueAboveBar(true);
 
+
+        seekBarX = findViewById(R.id.seekBar1);
+        seekBarY = findViewById(R.id.seekBar2);
         chart.getDescription().setEnabled(false);
 
         // if more than 60 entries are displayed in the chart, no values will be
@@ -84,6 +93,9 @@ public class HorizontalBarChartActivity extends DemoBase implements OnSeekBarCha
 
         // draw shadows for each bar that show the maximum value
         // chart.setDrawBarShadow(true);
+
+        seekBarX = findViewById(R.id.seekBar1);
+        seekBarY = findViewById(R.id.seekBar2);
 
         chart.setDrawGridBackground(false);
         chart.setTouchEnabled(false);
